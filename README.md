@@ -25,10 +25,7 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
-Для загрузки тестовых данных из csv-файлов выполнить команду:
-```
-python manage.py load_data
-```
+
 ## Prerequisites:
 ```
 Django==2.2.16
