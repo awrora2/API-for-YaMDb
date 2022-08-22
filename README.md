@@ -3,28 +3,28 @@
 ## Getting Started:
 Клонировать репозиторий и перейти в него в командной строке:
 Установить и активировать виртуальное окружение:
-'''
+```
 python3 -m venv env
 source env/bin/activate
 python3 -m pip install --upgrade pip
-'''
+```
 Установить зависимости из файла requirements.txt
-'''
+```
 python -m pip install --upgrade pip
 pip install -r requirements.txt
-'''
-- Выполнить миграции:
-'''
+```
+Выполнить миграции:
+```
 python manage.py migrate
-'''
-- В папке с файлом manage.py выполнить команду:
-'''
+```
+В папке с файлом manage.py выполнить команду:
+```
 python manage.py runserver
-'''
-- Для загрузки тестовых данных из csv-файлов выполнить команду:
-'''
+```
+Для загрузки тестовых данных из csv-файлов выполнить команду:
+```
 python manage.py load_data
-'''
+```
 
 Документация доступна после запуска по адресу:
 http://127.0.0.1/redoc/
